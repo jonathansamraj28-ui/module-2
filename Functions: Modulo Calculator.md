@@ -1,22 +1,28 @@
-# Built-in Functions -Binary Conversion Using Built-in Functions in Python
+# Functions in Python: Modulo Calculator
 
 ## 🎯 Aim
-To write a Python program to convert the number **16** into its **binary representation** using built-in Python functions.
+To write a Python program that defines a function which accepts two values and returns their **modulo** using the `%` operator.
 
 ## 🧠 Algorithm
-1. Assign the value `16` to a variable `a`.
-2. Use the built-in `bin()` function to convert the number to binary.
-3. Print the result.
+1. Define a function called `result` that takes two arguments `a` and `b`.
+2. Inside the function, compute the modulo using `a % b`.
+3. Print the result of the modulo operation.
+4. Get two integer inputs from the user.
+5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
 ```
-x=16
-y=bin(x)
-print(y)
+def result(a, b):
+    modulo_value = a % b
+    return modulo_value
+
+a=int(input())
+b=int(input())
+print("modulo is", result(a, b))
 ```
 
 ## Output
-<img width="385" height="305" alt="530222747-dca218f8-001c-47f6-96b9-b47f55ccd361" src="https://github.com/user-attachments/assets/ef223170-f65f-4245-b33d-72561c6330ec" />
+<img width="675" height="329" alt="530223119-1d393df5-d263-4a13-8a37-15981bd3cc55" src="https://github.com/user-attachments/assets/75d9c70b-9ef5-4ef8-870b-98e0fb16fd04" />
 
 ## Result
-Thus,the Python program to convert the number 16 into its binary representation using built-in Python functions is created successfully.
+Thus,the Python program that defines a function which accepts two values and returns their modulo using the % operator is created successfully.
